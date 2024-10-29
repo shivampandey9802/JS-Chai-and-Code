@@ -24,9 +24,31 @@ const myArr = [0 , 1 , 2, 3 , 4 ,5];
 // console.log(myArr);
 
 // slice , splice 
-console.log('A' , myArr);
-const myA1 = myArr.slice(1 , 3); // original array do not change
-console.log(myA1);
+// console.log('A' , myArr);
+// const myA1 = myArr.slice(1 , 3); // original array do not change
+// console.log(myA1);
 
-const myA2 = myArr.splice(1 , 3); // original array changes
-console.log(myA2);
+// const myA2 = myArr.splice(1 , 3); // original array changes
+// console.log(myA2);
+
+const marvel_heros = ["thor" , 'Ironman' , 'spiderman'];
+const dc_heros = ['superman' , 'batman' , 'wonderwoman'];
+
+// marvel_heros.push(dc_heros);
+// console.log(marvel_heros);
+
+// const allHeros = marvel_heros.concat(dc_heros); // concat return new array
+// console.log(allHeros);
+
+
+// const allHeros = [...marvel_heros , ...dc_heros]; // Spread operator
+// console.log(allHeros);
+
+
+// const another_array = [1 , 2 , 3 , [4 , 5 ,6] , 7 , [6 ,7 [4 , 5]]];
+// const real_another_array = another_array.flat(Infinity);
+
+// console.log(real_another_array);
+
+// console.log(Array.isArray('shivam'));
+// console.log(Array.from('shivam'));
