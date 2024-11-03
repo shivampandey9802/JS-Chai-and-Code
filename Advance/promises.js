@@ -76,6 +76,6 @@ fetch(url)
 .then((data)=>{
     console.log(data);
 })
-.catch(err) {
+.catch((err) => {
     console.log(err);
-}
+})
